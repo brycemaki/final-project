@@ -2,6 +2,31 @@ body{
   font-family: 'Architects Daughter', cursive;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 h1, h2, h3 {
   font-family: 'Work Sans', sans-serif;
 }
@@ -13,11 +38,4 @@ h1, h2, h3 {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
-  .fa:hover {
-      opacity: 0.7;
-  }
-  .fa-facebook {
-    background: #000;
-    color: tomato;
   }
